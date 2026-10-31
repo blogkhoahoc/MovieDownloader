@@ -35,7 +35,7 @@
 - [Hướng dẫn chi tiết từng trang](#-hướng-dẫn-chi-tiết-từng-trang)
 - [Tải về & cài đặt](#-tải-về--cài-đặt)
 - [Câu hỏi thường gặp (FAQ)](#-câu-hỏi-thường-gặp-faq)
-- [Thông tin tác giả](#-liên-hệ--khóa-học)
+- [Thông tin tác giả](#-thông-tin-tác-giả)
 
 ---
 
