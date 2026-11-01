@@ -160,7 +160,7 @@ Hỗ trợ cả nguồn Abyss, VK Video (vk.ru) và OK.ru — mỗi nguồn là 
 
 ---
 
-## ⬇️ Tải về & cài đặt
+## 📥 Tải về & cài đặt
 
 1. Vào mục [**Releases**](../../releases) → tải file **`MovieDownloader.exe`** mới nhất
 2. Chạy file trực tiếp — **không cần cài đặt, không cần Python**
