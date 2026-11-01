@@ -4,13 +4,13 @@
 
 ### Tải phim vietsub, thuyết minh · Tải video YouTube 4K, TikTok không logo, Facebook Reel, Bilibili… tất cả trong một công cụ duy nhất
 
-![Version](https://img.shields.io/badge/version-2.40-blue)
+![Version](https://img.shields.io/badge/version-2.42-blue)
 ![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-success)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 ![Price](https://img.shields.io/badge/gi%C3%A1-mi%E1%BB%85n%20ph%C3%AD-brightgreen)
 ![Ads](https://img.shields.io/badge/qu%E1%BA%A3ng%20c%C3%A1o-kh%C3%B4ng-orange)
 
-**🎬 Movie Downloader** là phần mềm tải phim và tải video **miễn phí** trên Windows với giao diện tiếng Việt hiện đại. Chỉ cần **dán link** — tool tự nhận diện 13 nguồn hỗ trợ, tự liệt kê server, chất lượng và danh sách tập, tải về thành file **MP4 hoàn chỉnh** (tự ghép âm thanh + hình ảnh). Không quảng cáo, không giới hạn số lượt tải, không cần cài thêm bất cứ thứ gì.
+**🎬 Movie Downloader** là phần mềm tải phim và tải video **miễn phí** trên Windows với giao diện tiếng Việt hiện đại. Chỉ cần **dán link** — tool tự nhận diện 15 nguồn hỗ trợ, tự liệt kê server, chất lượng và danh sách tập, tải về thành file **MP4 hoàn chỉnh** (tự ghép âm thanh + hình ảnh). Không quảng cáo, không giới hạn số lượt tải, không cần cài thêm bất cứ thứ gì.
 
 [![Xem video giới thiệu](https://img.youtube.com/vi/5WpIF-61MKQ/maxresdefault.jpg)](https://youtu.be/5WpIF-61MKQ)
 
@@ -63,10 +63,12 @@
 | [phimbet.top](https://phimbet.top) | Phim | Nguồn Abyss · tự lấy chất lượng tốt nhất |
 | [animesub.site](https://animesub.site) | Anime | Nhiều nhóm phụ đề (tự tách server riêng cho từng nhóm) |
 | animevietsub (.li/.nl/…) | Anime | Server HDX · tải trực tiếp, không cần cầu nối |
+| [anime47.best](https://anime47.best) | Anime | **HLS 1080p** · web bắt buộc đăng nhập (lưu tài khoản 1 lần trong tool) |
 | cobephim (.icu/.com/…) | Phim | Nhiều server qua API · tự nhận mọi tên miền cobephim |
 | [bilibili.tv](https://www.bilibili.tv/vi) | Phim / Anime | Tối đa 480P miễn phí · **tự lọc tập VIP** · tự ghép video + audio |
 | [facebook.com](https://www.facebook.com) | Reel / Watch / Video | HD 720p + SD 360p · video công khai |
 | [tiktok.com](https://www.tiktok.com) | Video TikTok | **HD không logo** + bản có logo |
+| [threads.com](https://www.threads.com) | Video Threads (Meta) | MP4 trực tiếp bản tốt nhất · bài công khai |
 | [youtube.com](https://www.youtube.com) · youtu.be | Video + **Playlist** | 240p → **2160p (4K)** · tự tải yt-dlp |
 | abysscdn.com · abyss.to · short.ink · playhydrax.com · zplayer.io · abyssplayer.com | Video đơn lẻ | Tích chọn chất lượng 360p / 720p / 1080p |
 | [clbphimxua.com](https://clbphimxua.com) | Phim bộ nhiều tập | Cần tài khoản trang (lưu 1 lần trong tool) |
@@ -102,42 +104,53 @@
 2. **Kiểm tra** → tool hiện **HD 720p** và **SD 360p**
 3. Chọn chất lượng → **Tải ngay**
 
-### 5. bilibili.tv — phim, anime bản quyền
+### 5. Threads — video từ threads.com (Meta)
+1. Mở bài post có video trên Threads, sao chép link dạng `https://www.threads.com/@user/post/CODE` (có hoặc không có đuôi `/media` đều được)
+2. **Kiểm tra** → tool tự tìm video trong bài
+3. **Tải ngay** → MP4 trực tiếp. Lưu ý: chỉ tải được bài **công khai**; bài riêng tư hoặc bài chỉ có ảnh sẽ được báo rõ
+
+### 6. bilibili.tv — phim, anime bản quyền
 1. Sao chép link dạng `https://www.bilibili.tv/vi/play/2097863`
 2. **Kiểm tra** → tool quét toàn bộ tập, **tự loại các tập VIP** và liệt kê các tập tải được (ví dụ Tập 1, Tập 2, tập đặc biệt…)
 3. Chọn tab chất lượng: **480P / 360P / 240P / 144P** (720p, 1080p là nội dung VIP của bilibili)
 4. Tích tập → **Tải ngay** — tool tự tải riêng video và âm thanh rồi **ghép thành MP4** bằng ffmpeg
 
-### 6. cobephim — nhiều server, nhiều chất lượng
+### 7. cobephim — nhiều server, nhiều chất lượng
 1. Dán link phim trên bất kỳ tên miền cobephim (.icu/.com/…) → **Kiểm tra**
 2. Mỗi server là một tab riêng (gồm cả server **Thuyết minh** nếu phim có)
 3. Trong mỗi server, chọn tab chất lượng rồi tích tập → **Tải ngay**
 
-### 7. animesub.site — anime nhiều nhóm phụ đề
+### 8. animesub.site — anime nhiều nhóm phụ đề
 1. Dán link dạng `https://animesub.site/phim/mao-6189.html` → **Kiểm tra**
 2. Với anime có nhiều nhóm dịch (ví dụ phim dài 104 tập của 4 nhóm phụ đề), tool **tự tách từng nhóm thành server riêng** — chọn đúng nhóm mình đang theo dõi
 3. Tích tập → **Tải ngay**
 
-### 8. animevietsub — anime server HDX
+### 9. animevietsub — anime server HDX
 1. Dán link phim (mọi tên miền animevietsub: .li/.nl/…) → **Kiểm tra**
 2. Tool tự lấy qua server HDX, **không cần cài cầu nối gì thêm**
 3. Tích tập → **Tải ngay**
 
-### 9. phimbet.top / ninoyo.online — phim nhanh gọn
+### 10. anime47.best — anime 1080p (web yêu cầu đăng nhập)
+Trang này **bắt buộc có tài khoản** mới xem được, làm 1 lần duy nhất:
+1. Bấm **🔑 Cài đặt tài khoản trang phim** ở cột trái
+2. Nhập Email + Mật khẩu tài khoản anime47.best → **Lưu**
+3. Dán link phim dạng `https://anime47.best/phim/ten-anime/m10208.html` → **Kiểm tra** → tool tự đăng nhập, nạp đủ tập với các server 1080p → tích tập → **Tải ngay**
+
+### 11. phimbet.top / ninoyo.online — phim nhanh gọn
 1. Dán link phim → **Kiểm tra** → tool tự lấy chất lượng tốt nhất có sẵn
 2. Tích tập → **Tải ngay** (với phimbet có thể chọn mức chất lượng Cao nhất / Trung bình / Thấp nhất ở menu bên trái)
 
-### 10. Link video đơn lẻ (Abyss) — abysscdn.com, abyss.to, short.ink, playhydrax.com…
+### 12. Link video đơn lẻ (Abyss) — abysscdn.com, abyss.to, short.ink, playhydrax.com…
 1. Dán link video đang mở (kiểu `https://abysscdn.com/?v=…`, `https://short.ink/…`) → **Kiểm tra**
 2. Tool liệt kê các chất lượng (360p / 720p / 1080p) — tích chất lượng muốn tải
 3. **Tải ngay**
 
-### 11. clbphimxua.com — phim bộ cần tài khoản
+### 13. clbphimxua.com — phim bộ cần tài khoản
 1. Bấm **🔑 Cài đặt tài khoản trang phim** ở cột trái
 2. Nhập Email/Mật khẩu của clbphimxua.com → **Lưu** (chỉ làm 1 lần, lưu trên máy bạn)
 3. Dán link phim → **Kiểm tra** → tool tự đăng nhập và nạp đủ tập → **Tải ngay**
 
-### 12. sieutamphim.pro — cần cầu nối Tampermonkey (cài 1 lần)
+### 14. sieutamphim.pro — cần cầu nối Tampermonkey (cài 1 lần)
 Trang này bật Cloudflare nên lần đầu cần làm thêm 3 bước nhỏ:
 1. Cài tiện ích **Tampermonkey** vào Chrome/Edge
 2. Mở file **`Movie Downloader Bridge.user.js`** trong kho này → bấm **Install**
@@ -154,7 +167,7 @@ Hỗ trợ cả nguồn Abyss, VK Video (vk.ru) và OK.ru — mỗi nguồn là 
 3. Dán link phim/video và tải!
 
 **Yêu cầu hệ thống:** Windows 10 / Windows 11 **64-bit** (không hỗ trợ Windows 32-bit)
-**Lưu ý lần đầu chạy:** khi tải nguồn cần ghép âm thanh (nguonc, bilibili, YouTube…), tool tự tải **ffmpeg** (~95MB, 1 lần duy nhất) — các lần sau dùng lại ngay.
+**Lưu ý lần đầu chạy:** khi tải nguồn cần ghép âm thanh (nguonc, bilibili, anime47, YouTube…), tool tự tải **ffmpeg** (~95MB, 1 lần duy nhất) — các lần sau dùng lại ngay.
 
 > ⚠️ Nếu Windows SmartScreen hiện cảnh báo, chọn **"Run anyway"** — file exe chưa ký số (bình thường với ứng dụng miễn phí nhỏ lẻ). Mã nguồn mở tại repo này, bạn có thể tự kiểm tra và tự build.
 
@@ -172,7 +185,10 @@ Không. File `MovieDownloader.exe` đã chứa sẵn tất cả. ffmpeg và yt-d
 Các tập còn lại là nội dung **VIP** của bilibili.tv — tool tự lọc và chỉ hiện những tập tải được ở chế độ miễn phí. Tương tự, chất lượng cao nhất miễn phí của bilibili là 480P.
 
 **Vì sao không tải được video Facebook ở chế độ riêng tư?**
-Chỉ những Reel / Video **công khai** mới tải được — tool không truy cập nội dung riêng tư của người khác.
+Chỉ những Reel / Video **công khai** mới tải được — tool không truy cập nội dung riêng tư của người khác. Video Threads cũng vậy.
+
+**Vì sao anime47.best cần tài khoản mà các trang phim khác không cần?**
+Vì trang này tự khóa nội dung sau đăng nhập (API trả lỗi nếu chưa đăng nhập). Bạn chỉ cần lưu tài khoản 1 lần trong **Cài đặt tài khoản trang phim** — tool tự đăng nhập mỗi lần tải, tài khoản chỉ nằm trên máy bạn.
 
 **Tải dở mà tắt máy/tạm dừng thì có mất dữ liệu không?**
 Không. Bấm **Dừng tải** hoặc tắt tool giữa chừng, lần chạy sau sẽ **tự tiếp tục từ phần đã tải**.
@@ -207,6 +223,6 @@ Tool tải video về máy bạn qua các CDN chính thống của từng trang,
 
 ⭐ Nếu tool hữu ích, đừng quên **thêm Sao (Star) cho repo** để ủng hộ tác giả và nhận thông báo bản mới!
 
-**Từ khóa:** tải phim miễn phí, phần mềm tải phim, tải video youtube 4K, tải video tiktok không logo, tải video facebook reel, tải phim vietsub thuyết minh, tải phim bilibili, công cụ tải video windows, movie downloader, phim downloader, download video, tải anime, tải playlist youtube, phần mềm tải video miễn phí, tool tải phim viet nam
+**Từ khóa:** tải phim miễn phí, phần mềm tải phim, tải video youtube 4K, tải video tiktok không logo, tải video facebook reel, tải video threads, tải anime 1080p, tải phim vietsub thuyết minh, tải phim bilibili, công cụ tải video windows, movie downloader, phim downloader, download video, tải anime, tải playlist youtube, phần mềm tải video miễn phí, tool tải phim viet nam
 
 </div>
