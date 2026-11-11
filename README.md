@@ -193,7 +193,19 @@ Trang này **bắt buộc có tài khoản** mới xem được, làm 1 lần du
 3. Dán link phim/video và tải!
 
 **Yêu cầu hệ thống:** Windows 10 / Windows 11 **64-bit** (không hỗ trợ Windows 32-bit)
-**Lưu ý lần đầu chạy:** khi tải nguồn cần ghép âm thanh (nguonc, bilibili, anime47, YouTube…), tool tự tải **ffmpeg** (~95MB, 1 lần duy nhất) — các lần sau dùng lại ngay.
+
+**⚠ Cần thêm 2 file để tải đầy đủ:** `ffmpeg.exe` + `yt-dlp.exe`
+
+Tool có thể **tự tải** 2 file này khi cần (chỉ 1 lần duy nhất). Nhưng nếu muốn chủ động, tải trước bằng link bên dưới:
+
+| File | Dùng cho | Link tải |
+|---|---|---|
+| `ffmpeg.exe` | Ghép video + âm thanh thành MP4 (nguonc, bilibili, anime47, YouTube…) | [Tải ffmpeg (~95MB zip)](https://github.com/BtbN/FFmpeg-Builds/releases/latest/download/ffmpeg-master-latest-win64-gpl.zip) |
+| `yt-dlp.exe` | Tải YouTube + VK | [Tải yt-dlp (~17MB)](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe) |
+
+**Hướng dẫn đặt file:** sau khi tải, giải nén (nếu là zip) và đặt file **cạnh file `MovieDownloader.exe`** — tool tự nhận diện ngay khi mở lại.
+
+> 💡 Tool cũng tự kiểm tra lúc mở app: nếu thiếu file sẽ hiện popup kèm nút tải trực tiếp. Nếu bạn đã tải sẵn và đặt đúng chỗ, popup sẽ không hiện nữa.
 
 > ⚠️ Nếu Windows SmartScreen hiện cảnh báo, chọn **"Run anyway"** — file exe chưa ký số (bình thường với ứng dụng miễn phí nhỏ lẻ). Mã nguồn mở tại repo này, bạn có thể tự kiểm tra và tự build.
 
