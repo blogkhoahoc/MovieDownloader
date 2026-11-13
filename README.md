@@ -76,7 +76,7 @@
 | [x.com](https://x.com) · twitter.com | Video X (Twitter) | MP4 bitrate cao nhất · không logo · bài công khai |
 | [instagram.com](https://www.instagram.com) | Reel / Video | MP4 bản chuẩn tốt nhất · không logo · bài công khai |
 | [douyin.com](https://www.douyin.com) | Douyin (TikTok Trung) | Video không logo chất lượng cao + **toàn bộ kênh creator** · qua resolver mã nguồn mở |
-| [t.me](https://t.me/telegram) | **Telegram** | Kênh/nhóm công khai: quét toàn bộ video · **nhóm RIÊNG TƯ: đăng nhập Telegram 1 lần** là quét được · MP4 gốc, dung lượng chính xác |
+| [t.me](https://t.me/telegram) | **Telegram** | Kênh/nhóm công khai: quét toàn bộ video · **nhóm RIÊNG TƯ: đăng nhập Telegram 1 lần** · hỗ trợ link topic & `web.telegram.org/k/#@tên` · MP4 gốc |
 | [kkphim.com](https://kkphim.com) | Phim | HLS m3u8 trực tiếp · **3 server** (Vietsub / Thuyết Minh / Lồng Tiếng) · không cần đăng nhập |
 | [youtube.com](https://www.youtube.com) · youtu.be | Video + **Playlist** | 240p → **2160p (4K)** · tự tải yt-dlp |
 | abysscdn.com · abyss.to · short.ink · playhydrax.com · zplayer.io · abyssplayer.com | Video đơn lẻ | Tích chọn chất lượng 360p / 720p / 1080p |
@@ -140,11 +140,13 @@
 4. **Tải ngay** → MP4 **không logo**, tự chọn bản phân giải/bitrate cao nhất (thường 1080p). Lưu ý: video Douyin của creator chỉ đăng nội bộ Trung Quốc có thể resolver không đọc được
 
 ### 10. Telegram — kênh/nhóm công khai VÀ riêng tư (t.me)
-1. **Kênh/nhóm công khai** (không cần đăng nhập): dán link `https://t.me/ten_kenh` hoặc link 1 tin nhắn `https://t.me/ten_kenh/123` → **Kiểm tra** → quét toàn bộ video
+1. **Kênh/nhóm công khai** (không cần đăng nhập): dán link `https://t.me/ten_kenh`, link 1 tin nhắn `https://t.me/ten_kenh/123`, hoặc link Telegram Web `https://web.telegram.org/k/#@ten_kenh` → **Kiểm tra** → quét toàn bộ video
 2. **Kênh/nhóm RIÊNG TƯ** (đa số nhóm hiện nay):
    - Bấm nút **📨 Đăng nhập Telegram** ở khung TÀI KHOẢN bên trái (1 lần duy nhất)
    - Nhập số điện thoại dạng quốc tế (+84…) → bấm **Gửi mã** → mở app Telegram xem mã → nhập mã → **Đăng nhập**
    - Xong! Dán link nhóm riêng tư bất kỳ: link mời `t.me/+…`, link nội bộ `web.telegram.org/k/#…`, link tin nhắn `t.me/c/<id>/<số>`, hoặc link `t.me/tên` → tool quét toàn bộ video bằng tài khoản của bạn
+   - **Nhóm có TOPIC**: dán link topic `t.me/nhóm/<số>` là quét riêng video của topic đó (tool tự nhận biết số đó là tin nhắn hay topic); link `t.me/nhóm/<topic>/<tin nhắn>` tải đúng 1 video
+   - Mọi dạng link Telegram Web khác (`k/#@tên`, `k/#?tgWebAddr=tên`, `a/#…`) đều nhận được
 3. Chọn/tích video → **Tải ngay** — MP4 gốc, dung lượng hiện **chính xác từng video**
 4. ⚠️ Tool chỉ đọc được các nhóm mà **tài khoản bạn đăng nhập là thành viên**; tài khoản chỉ nằm trên máy bạn
 5. ⚠️ **Bấm Gửi mã mà báo lỗi CAPTCHA?** Telegram nghi ngờ IP đang dùng (thường gặp khi dùng VPS/VPN). Cách xử lý: tạo **API ID riêng** (miễn phí 2 phút) tại [my.telegram.org](https://my.telegram.org) → đăng nhập bằng số điện thoại → **API development tools** → tạo app → copy **App api_id** và **App api_hash** → điền vào 2 ô *API ID riêng* trong hộp thoại Đăng nhập Telegram → bấm Gửi mã lại. Hoặc thử lại trên mạng nhà (không VPN)
