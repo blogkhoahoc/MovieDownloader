@@ -2,15 +2,15 @@
 
 # 🎬 Movie Downloader — Phần mềm tải phim, tải video miễn phí cho Windows
 
-### Tải phim vietsub, thuyết minh · Tải video YouTube 4K, TikTok không logo, Facebook Reel, Bilibili… tất cả trong một công cụ duy nhất
+### Tải phim vietsub, thuyết minh · Tải video YouTube 4K, TikTok không logo, Facebook Reel, Telegram… tất cả trong một công cụ duy nhất
 
-![Version](https://img.shields.io/badge/version-2.43-blue)
+![Version](https://img.shields.io/badge/version-2.44-blue)
 ![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011%20x64-success)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow)
 ![Price](https://img.shields.io/badge/gi%C3%A1-mi%E1%BB%85n%20ph%C3%AD-brightgreen)
 ![Ads](https://img.shields.io/badge/qu%E1%BA%A3ng%20c%C3%A1o-kh%C3%B4ng-orange)
 
-**🎬 Movie Downloader** là phần mềm tải phim và tải video **miễn phí** trên Windows với giao diện tiếng Việt hiện đại. Chỉ cần **dán link** — tool tự nhận diện 19 nguồn hỗ trợ, tự liệt kê server, chất lượng và danh sách tập, tải về thành file **MP4 hoàn chỉnh** (tự ghép âm thanh + hình ảnh). Không quảng cáo, không giới hạn số lượt tải, không cần cài thêm bất cứ thứ gì.
+**🎬 Movie Downloader** là phần mềm tải phim và tải video **miễn phí** trên Windows với giao diện tiếng Việt hiện đại. Chỉ cần **dán link** — tool tự nhận diện 20 nguồn hỗ trợ, tự liệt kê server, chất lượng và danh sách tập, tải về thành file **MP4 hoàn chỉnh** (tự ghép âm thanh + hình ảnh). Hỗ trợ cả **nhóm Telegram riêng tư** qua đăng nhập tài khoản. Không quảng cáo, không giới hạn số lượt tải, không cần cài thêm bất cứ thứ gì.
 
 [![Xem video giới thiệu](https://img.youtube.com/vi/5WpIF-61MKQ/maxresdefault.jpg)](https://youtu.be/5WpIF-61MKQ)
 
@@ -45,12 +45,15 @@
 - 🖥️ **Giao diện tiếng Việt** hiện đại, giao diện tối (dark mode), dễ dùng với mọi lứa tuổi
 - 🎞️ **Đầy đủ server & chất lượng** — Vietsub / Thuyết minh / các server dự phòng, chất lượng từ 144P đến 4K
 - 📺 **Tải cả playlist YouTube** — dán link playlist là tải toàn bộ video trong danh sách
+- 📨 **Telegram tải hàng loạt** — kênh/nhóm công khai: dán link là quét toàn bộ video; **nhóm RIÊNG TƯ**: đăng nhập Telegram 1 lần là quét được mọi nhóm mình là thành viên, hiểu cả link mời `t.me/+…` và link `web.telegram.org/k/#…`
 - 🚫 **TikTok không logo** — tải bản gốc không dán watermark
 - ⚡ **Tải song song tới 16 luồng** — điều chỉnh bằng thanh trượt, tiết kiệm thời gian
 - ⏸️ **Tạm dừng & tự tiếp tục (resume)** — dừng tải rồi chạy lại, tool tiếp tục từ chỗ dở, không mất phần đã tải
 - 📏 **Hiện dung lượng ngay khi chọn tập** — tự cộng tổng (chính xác với nguồn MP4/Abyss, ước lượng với nguồn HLS) · sau khi tải xong báo dung lượng thực của file
 - 🧩 **Tự ghép video + âm thanh** bằng ffmpeg — xuất file **MP4** mở được bằng mọi trình phát
 - 🔢 **Phim nghìn tập vẫn nhẹ nhàng** — phân trang 30 tập/lần, chọn nhanh khoảng tập `1-24,30`
+- 🛡️ **Proxy tích hợp sẵn** — trang phim bị nhà mạng chặn? Dán proxy vào là tải tiếp, có nút kiểm tra proxy sống/chết ngay trong tool; thông minh hơn: chỉ trang web đi qua proxy, video (CDN) luôn tải trực tiếp để nhanh nhất
+- 🔔 **Tự kiểm tra bản mới** — có phiên bản mới sẽ báo kèm **toàn bộ nội dung cập nhật** ngay trong tool
 - 🧹 **Không quảng cáo, không pop-up, không thu phí** — 100% miễn phí
 
 ---
@@ -73,6 +76,7 @@
 | [x.com](https://x.com) · twitter.com | Video X (Twitter) | MP4 bitrate cao nhất · không logo · bài công khai |
 | [instagram.com](https://www.instagram.com) | Reel / Video | MP4 bản chuẩn tốt nhất · không logo · bài công khai |
 | [douyin.com](https://www.douyin.com) | Douyin (TikTok Trung) | Video không logo chất lượng cao + **toàn bộ kênh creator** · qua resolver mã nguồn mở |
+| [t.me](https://t.me/telegram) | **Telegram** | Kênh/nhóm công khai: quét toàn bộ video · **nhóm RIÊNG TƯ: đăng nhập Telegram 1 lần** là quét được · MP4 gốc, dung lượng chính xác |
 | [kkphim.com](https://kkphim.com) | Phim | HLS m3u8 trực tiếp · **3 server** (Vietsub / Thuyết Minh / Lồng Tiếng) · không cần đăng nhập |
 | [youtube.com](https://www.youtube.com) · youtu.be | Video + **Playlist** | 240p → **2160p (4K)** · tự tải yt-dlp |
 | abysscdn.com · abyss.to · short.ink · playhydrax.com · zplayer.io · abyssplayer.com | Video đơn lẻ | Tích chọn chất lượng 360p / 720p / 1080p |
@@ -127,6 +131,7 @@
 ### 8. kkphim.com — phim HLS m3u8 trực tiếp (3 server)
 1. Dán link dạng `https://kkphim.com/phim/ten-phim` → **Kiểm tra** → tool tự đọc đủ danh sách tập, chia đúng 3 server (Vietsub / Thuyết Minh / Lồng Tiếng)
 2. Chọn tab server → tích tập → **Tải ngay** — HLS m3u8 trực tiếp, không cần cài thêm gì
+3. **Bị nhà mạng chặn?** Một số ISP chặn kkphim.com — lúc đó tool tự thử DNS dự phòng (Cloudflare DoH), nếu vẫn lỗi thì dùng **Proxy** ở cột trái (xem FAQ bên dưới)
 
 ### 9. Douyin — TikTok Trung Quốc (douyin.com)
 1. **Video đơn**: dán link có `modal_id=…` hoặc `/video/…`
@@ -134,50 +139,60 @@
 3. **Kiểm tra** → tool đọc qua resolver mã nguồn mở douyin.wtf, liệt kê toàn bộ video
 4. **Tải ngay** → MP4 **không logo**, tự chọn bản phân giải/bitrate cao nhất (thường 1080p). Lưu ý: video Douyin của creator chỉ đăng nội bộ Trung Quốc có thể resolver không đọc được
 
-### 10. bilibili.tv — phim, anime bản quyền
+### 10. Telegram — kênh/nhóm công khai VÀ riêng tư (t.me)
+1. **Kênh/nhóm công khai** (không cần đăng nhập): dán link `https://t.me/ten_kenh` hoặc link 1 tin nhắn `https://t.me/ten_kenh/123` → **Kiểm tra** → quét toàn bộ video
+2. **Kênh/nhóm RIÊNG TƯ** (đa số nhóm hiện nay):
+   - Bấm nút **📨 Đăng nhập Telegram** ở khung TÀI KHOẢN bên trái (1 lần duy nhất)
+   - Nhập số điện thoại dạng quốc tế (+84…) → bấm **Gửi mã** → mở app Telegram xem mã → nhập mã → **Đăng nhập**
+   - Xong! Dán link nhóm riêng tư bất kỳ: link mời `t.me/+…`, link nội bộ `web.telegram.org/k/#…`, link tin nhắn `t.me/c/<id>/<số>`, hoặc link `t.me/tên` → tool quét toàn bộ video bằng tài khoản của bạn
+3. Chọn/tích video → **Tải ngay** — MP4 gốc, dung lượng hiện **chính xác từng video**
+4. ⚠️ Tool chỉ đọc được các nhóm mà **tài khoản bạn đăng nhập là thành viên**; tài khoản chỉ nằm trên máy bạn
+5. ⚠️ **Bấm Gửi mã mà báo lỗi CAPTCHA?** Telegram nghi ngờ IP đang dùng (thường gặp khi dùng VPS/VPN). Cách xử lý: tạo **API ID riêng** (miễn phí 2 phút) tại [my.telegram.org](https://my.telegram.org) → đăng nhập bằng số điện thoại → **API development tools** → tạo app → copy **App api_id** và **App api_hash** → điền vào 2 ô *API ID riêng* trong hộp thoại Đăng nhập Telegram → bấm Gửi mã lại. Hoặc thử lại trên mạng nhà (không VPN)
+
+### 11. bilibili.tv — phim, anime bản quyền
 1. Sao chép link dạng `https://www.bilibili.tv/vi/play/2097863`
 2. **Kiểm tra** → tool quét toàn bộ tập, **tự loại các tập VIP** và liệt kê các tập tải được (ví dụ Tập 1, Tập 2, tập đặc biệt…)
 3. Chọn tab chất lượng: **480P / 360P / 240P / 144P** (720p, 1080p là nội dung VIP của bilibili)
 4. Tích tập → **Tải ngay** — tool tự tải riêng video và âm thanh rồi **ghép thành MP4** bằng ffmpeg
 
-### 11. cobephim — nhiều server, nhiều chất lượng
+### 12. cobephim — nhiều server, nhiều chất lượng
 1. Dán link phim trên bất kỳ tên miền cobephim (.icu/.com/…) → **Kiểm tra**
 2. Mỗi server là một tab riêng (gồm cả server **Thuyết minh** nếu phim có)
 3. Trong mỗi server, chọn tab chất lượng rồi tích tập → **Tải ngay**
 
-### 12. animesub.site — anime nhiều nhóm phụ đề
+### 13. animesub.site — anime nhiều nhóm phụ đề
 1. Dán link dạng `https://animesub.site/phim/mao-6189.html` → **Kiểm tra**
 2. Với anime có nhiều nhóm dịch (ví dụ phim dài 104 tập của 4 nhóm phụ đề), tool **tự tách từng nhóm thành server riêng** — chọn đúng nhóm mình đang theo dõi
 3. Tích tập → **Tải ngay**
 
-### 13. animevietsub — anime server HDX
+### 14. animevietsub — anime server HDX
 1. Dán link phim (mọi tên miền animevietsub: .li/.nl/…) → **Kiểm tra**
 2. Tool tự lấy qua server HDX, **không cần cài cầu nối gì thêm**
 3. Tích tập → **Tải ngay**
 
-### 14. anime47.best — anime 1080p (web yêu cầu đăng nhập)
+### 15. anime47.best — anime 1080p (web yêu cầu đăng nhập)
 Trang này **bắt buộc có tài khoản** mới xem được, làm 1 lần duy nhất:
 1. Bấm **🔑 Cài đặt tài khoản trang phim** ở cột trái
 2. Nhập Email + Mật khẩu tài khoản anime47.best → **Lưu**
 3. Dán link phim dạng `https://anime47.best/phim/ten-anime/m10208.html` (mọi tên miền anime47.*) → **Kiểm tra** → tool tự đăng nhập, nạp đủ tập với các server 1080p → tích tập → **Tải ngay**
 
-### 15. phimbet.top / ninoyo.online — phim nhanh gọn
+### 16. phimbet.top / ninoyo.online — phim nhanh gọn
 1. Dán link phim → **Kiểm tra** → tool tự lấy chất lượng tốt nhất có sẵn
 2. Tích tập → **Tải ngay** (với phimbet có thể chọn mức chất lượng Cao nhất / Trung bình / Thấp nhất ở menu bên trái)
 
-### 16. Link video đơn lẻ (Abyss) — abysscdn.com, abyss.to, short.ink, playhydrax.com…
+### 17. Link video đơn lẻ (Abyss) — abysscdn.com, abyss.to, short.ink, playhydrax.com…
 1. Dán link video đang mở (kiểu `https://abysscdn.com/?v=…`, `https://short.ink/…`) → **Kiểm tra**
 2. Tool liệt kê các chất lượng (360p / 720p / 1080p) — tích chất lượng muốn tải
 3. **Tải ngay**
 
-### 17. clbphimxua.com — phim bộ cần tài khoản
+### 18. clbphimxua.com — phim bộ cần tài khoản
 1. Bấm **🔑 Cài đặt tài khoản trang phim** ở cột trái
 2. Nhập Email/Mật khẩu của clbphimxua.com → **Lưu** (chỉ làm 1 lần, lưu trên máy bạn)
 3. Dán link phim → **Kiểm tra** → tool tự đăng nhập và nạp đủ tập → **Tải ngay**
 
-### 18. sieutamphim — phim (mọi tên miền sieutamphim.*)
+### 19. sieutamphim — phim (mọi tên miền sieutamphim.*)
 1. Dán link phim hoặc link tập (ví dụ `https://www.sieutamphim.fun/xem-phim/ten-phim/`) → **Kiểm tra**
-2. Tool tự đọc đủ danh sách tập, **không cần cài thêm gì** (giao diện mới đã bỏ Cloudflare)
+2. Tool tự đọc đủ danh sách tập — gồm cả **phim bộ nhiều tập** và **phim lẻ 1 tập (hiện "Full")** — **không cần cài thêm gì** (giao diện mới đã bỏ Cloudflare)
 3. Tích tập → **Tải ngay** — nguồn Abyss, tự lấy chất lượng cao nhất
 
 > Tool nhận diện sieutamphim theo tên miền họ `sieutamphim.*` — dù trang đổi sang tên miền khác (miễn còn chứa "sieutamphim") vẫn chạy bình thường.
@@ -188,9 +203,11 @@ Trang này **bắt buộc có tài khoản** mới xem được, làm 1 lần du
 
 ## 📥 Tải về & cài đặt
 
-1. Vào mục [**Releases**](../../releases) → tải file **`MovieDownloader.exe`** mới nhất
+1. Vào mục [**Releases**](../../releases) → tải file **`MovieDownloader.exe`** mới nhất (v2.44)
 2. Chạy file trực tiếp — **không cần cài đặt, không cần Python**
 3. Dán link phim/video và tải!
+
+> 💡 **Đang dùng v2.43?** Chạy đè file mới lên bản cũ là xong — tài khoản đã lưu (kể cả đăng nhập Telegram), ffmpeg/yt-dlp đã tải đều giữ nguyên. Tool cũng **tự báo phiên bản mới** kèm nội dung cập nhật khi bạn mở app.
 
 **Yêu cầu hệ thống:** Windows 10 / Windows 11 **64-bit** (không hỗ trợ Windows 32-bit)
 
@@ -234,8 +251,14 @@ Không. Bấm **Dừng tải** hoặc tắt tool giữa chừng, lần chạy sa
 **Vì sao tổng dung lượng khi chọn tập có dấu "~" với một số phim?**
 Video các nguồn MP4 trực tiếp (TikTok, Facebook, Douyin…) và bilibili/Abyss có dung lượng **chính xác** do server khai báo. Nguồn HLS (nguonc, ninoyo, cobephim…) chỉ khai số mảnh — tool ước lượng bằng cách dò một mảnh rồi nhân lên (sai số ±15%), con số **chính xác nhất** luôn hiện ở nhật ký sau khi tải xong.
 
+**Đăng nhập Telegram bị báo lỗi CAPTCHA / không gửi được mã?**
+Telegram chặn việc gửi mã từ IP bị đánh giá rủi ro (VPS, VPN, IP đã bị lạm dụng). Tạo **API ID riêng** tại [my.telegram.org](https://my.telegram.org) (đăng nhập bằng chính số điện thoại của bạn → API development tools → tạo app) rồi điền vào ô **API ID riêng** trong hộp thoại Đăng nhập Telegram — Telegram tin tưởng API ID chính chủ nên sẽ gửi mã bình thường. Nếu dùng VPN/VPS, thử tắt đi và dùng mạng nhà.
+
 **Có hỗ trợ Windows 32-bit (win32) không?**
 Không, tool chỉ có bản **64-bit** — máy tính thời nay đều dùng 64-bit.
+
+**Vì sao kkphim.com báo lỗi "Failed to connect" trên máy nhà, nhưng chạy trên mạng khác/VPS thì được?**
+Nhà mạng của bạn (ISP) đã chặn truy cập tới trang đó. Tool có sẵn mục **Proxy (nếu bị chặn)** ở cột trái: dán proxy vào theo dạng `socks5://ip:port` hoặc `http://ip:port`, bấm **Kiểm tra proxy này** — nếu hiện "dùng được!" thì quay lại dán link phim như bình thường. Proxy miễn phí trên mạng chết rất nhanh (vài phút), hãy lấy proxy còn mới/test trước. Cách ổn định nhất: dùng VPN trên máy rồi để ô proxy trống — VPN xử lý ở tầng mạng nên tool không cần biết.
 
 **Tải playlist YouTube có chọn được chất lượng không?**
 Có. Với video lẻ: tool hiện đầy đủ danh sách chất lượng để bạn chọn. Với playlist: tool tải toàn bộ ở chất lượng tốt nhất.
